@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Menu elements -->
+    <string name="app_name">BirthdayBuddy</string>
+    <string name="title_activity_main">BirthdayBuddy</string>
+    <string name="title_activity_add_friend">Legg til venn</string>
+    <string name="exit">Avslutt</string>
+    <string name="action_sms_settings">SMS-innstillinger</string>
+    <string name="action_delete_contact">Slett venn</string>
+    <string name="menu_settings">Innstillinger</string>
+
+    <!-- Preferences -->
+    <string name="pref_send_report">Send feilmeldingsrapport</string>
+    <string name="pref_send_report_summary">Hjelp oss med feilrapportering</string>
+    <string name="pref_sync_frequency">Synkroniseringsfrekvens</string>
+    <string name="pref_sync_frequency_summary">Sett synkroniseringsfrekvens</string>
+    <string name="pref_key_sms_greeting_title">Sett bursdagshilsen</string>
+    <string name="pref_key_sms_greeting_summary">Lag en egendefinert bursdagshilsen-SMS</string>
+    <string name="default_sms_greeting">Gratulerer med dagen</string>
+    <string name="pref_key_set_time_title">Sett tidspunkt</string>
+    <string name="pref_key_set_time_summary">Sett tidspunkt for utsending av bursdagshilsen-SMS</string>
+    <string name="set_button">Sett</string>
+    <string name="pref_key_enable_sms">Aktiver SMS-tjenesten</string>
+    <string name="sms_settings">SMS-innstillinger</string>
+    <string name="pref_key_language_summary">Velg språk for applikasjonen</string>
+    <string name="pref_key_language_title">Velg språk</string>
+
+    <!-- Dialog boxes, toasts and notifications -->
+    <string name="dialog_delete_friend_title">SLETTING</string>
+    <string name="dialog_delete_friend_text">Denne vennen vil bli slettet</string>
+    <string name="dialog_delete_button">Slett</string>
+    <string name="dialog_cancel_button">Avbryt</string>
+    <string name="sms_error_text">En feil oppstod ved sending av melding til venn med telefonnummer: </string>
+    <string name="notification_title">Bursdagshilsen sendt</string>
+    <string name="notification_text">En SMS med bursdagshilsen ble sendt til følgende venner:</string>
+    <string name="widget_text">Ingen av vennene dine har bursdag i dag</string>
+    <string name="no_friends">Du har ikke lagt til noen venner</string>
+
+    <!-- Placeholder texts -->
+    <string name="first_name">Fornavn</string>
+    <string name="last_name">Etternavn</string>
+    <string name="phone_number_hint">Telefonnummer</string>
+    <string name="birthday_button">Sett</string>
+    <string name="date">Fødselsdag</string>
+    <string name="hint_date_input">Sett fødselsdag</string>
+    <string name="friends">Venner</string>
+    <string name="addPerson">Legg til venn</string>
+    <string name="edit">Endre</string>
+    <string name="back">Tilbake</string>
+    <string name="birthday_hint">Fødselsdag</string>
+
+    <!-- Content descriptions for images -->
+    <string name="add_contact_description">Legg til venn</string>
+    <string name="save_contact_description">Lagre venne-informasjon</string>
+    <string name="contact_image_description">Bilde som representerer vennen</string>
+    <string name="delete_contact_image_description">Slett vebb</string>
+    <string name="edit_contact_description">Endre venne-informasjon</string>
+    <string name="action_settings">Innstillinger</string>
+
+    <!-- Input validation -->
+    <string name="invalid_input_title">UGYLDIG INPUT</string>
+    <string name="enter_first_or_last_name">Vennligst skriv inn vennens fornavn og/eller etternavn.</string>
+    <string name="enter_phone_number">Telefonnummer må spesifiseres. </string>
+    <string name="validate_first_name">Fornavn kan kun bestå av bokstaver, mellomrom og tegnet \'-\'.</string>
+    <string name="validate_last_name">Etternavn kan kun bestå av bokstaver, mellomrom og tegnet \'-\'.</string>
+    <string name="validate_phone_number">Telefonnummer kan kun bestå av siffer og tegnet \'+\'. </string>
+
+</resources>

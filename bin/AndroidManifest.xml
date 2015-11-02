@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hioa.s156960_mappe2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" >
+    </uses-permission>
+
+    <application
+        android:name="com.hioa.s156960_mappe2.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_ny"
+        android:label="@string/app_name"
+        android:logo="@drawable/ic_launcher_ny"
+        android:theme="@style/Theme.Example" >
+        <activity
+            android:name="com.hioa.s156960_mappe2.MainActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_main" >
+            <intent-filter android:label="@string/app_name" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hioa.s156960_mappe2.FriendDetailActivity"
+            android:configChanges="locale"
+            android:parentActivityName="com.hioa.s156960_mappe2.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.hioa.s156960_mappe2.SettingsActivity"
+            android:configChanges="locale"
+            android:parentActivityName="com.hioa.s156960_mappe2.MainActivity" >
+        </activity>
+
+        <provider
+            android:name="FriendsContentProvider"
+            android:authorities="com.hioa.s156960_mappe2.contacts"
+            android:exported="true" />
+
+        <service android:name="SetRepeatService" >
+        </service>
+        <service android:name="NotificationAlarmService" >
+        </service>
+
+        <receiver android:name="com.hioa.s156960_mappe2.FriendsBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.hioa.s156960_mappe2.FriendWidget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+    </application>
+
+</manifest>

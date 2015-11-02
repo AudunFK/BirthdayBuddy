@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Menu elements -->
+    <string name="app_name">BirthdayBuddy</string>
+    <string name="title_activity_main">BirthdayBuddy</string>
+    <string name="title_activity_add_friend">Add friend</string>
+    <string name="exit">Exit application</string>
+    <string name="action_sms_settings">SMS settings</string>
+    <string name="action_delete_contact">Delete friend</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Preferences -->
+    <string name="pref_send_report">Send crash reports</string>
+    <string name="pref_send_report_summary">Helps to fix bugs</string>
+    <string name="pref_sync_frequency">Sync frequency</string>
+    <string name="pref_sync_frequency_summary">Set the sync frequency</string>
+    <string name="pref_key_sms_greeting_title">Set SMS birthday greeting</string>
+    <string name="pref_key_sms_greeting_summary">Set the birthday greeting SMS</string>
+    <string name="default_sms_greeting">Happy birthday to you</string>
+    <string name="pref_key_set_time_title">Set time</string>
+    <string name="pref_key_set_time_summary">Set the time for the SMS birthday greeting</string>
+    <string name="set_button">Set</string>
+    <string name="pref_key_enable_sms">Enable SMS service</string>
+    <string name="sms_settings">SMS settings</string>
+    <string name="pref_key_language_summary">Choose the application language</string>
+    <string name="pref_key_language_title">Set language</string>
+
+    <!-- Dialog boxes, toasts and notifications -->
+    <string name="dialog_delete_friend_title">DELETE</string>
+    <string name="dialog_delete_friend_text">This friend will be deleted.</string>
+    <string name="dialog_delete_button">Delete</string>
+    <string name="dialog_cancel_button">Cancel</string>
+    <string name="sms_error_text">An error occurred during sending of birthday sms to friend with phone number: </string>
+    <string name="notification_title">Birthday greeting sent</string>
+    <string name="notification_text">A birthday greeting was sent to the following friends:</string>
+    <string name="widget_text">None of your friends has birthday today</string>
+    <string name="no_friends">No friends have been added yet</string>
+
+    <!-- Placeholder texts -->
+    <string name="first_name">First name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number_hint">Phone number</string>
+    <string name="birthday_hint">Date of birth</string>
+    <string name="birthday_button">Set</string>
+    <string name="date">Date of birth</string>
+    <string name="hint_date_input">Set date of birth</string>
+    <string name="friends">Friends</string>
+    <string name="addPerson">Add Person</string>
+    <string name="edit">Edit</string>
+    <string name="back">Back</string>
+
+    <!-- Content descriptions for images -->
+    <string name="add_contact_description">Add contact</string>
+    <string name="save_contact_description">Save new contact</string>
+    <string name="contact_image_description">Image depicting the contact</string>
+    <string name="delete_contact_image_description">Delete contact</string>
+    <string name="edit_contact_description">Edit friend information</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Input validation -->
+    <string name="invalid_input_title">INVALID INPUT</string>
+    <string name="enter_first_or_last_name">Please enter a first and/or last name for your friend.</string>
+    <string name="enter_phone_number">Please enter a phone number. </string>
+    <string name="validate_first_name">First name can only consist of letters, spaces and the character \'-\'.</string>
+    <string name="validate_last_name">Lirst name can only consist of letters, spaces and the character \'-\'.</string>
+    <string name="validate_phone_number">Phone numbers can only contain digits and the character \'+\'. </string>
+
+</resources>

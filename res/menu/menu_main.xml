@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hioa.s156960_mappe2.MainActivity" >
+
+
+    <item
+        android:id="@+id/add_friend"
+        android:icon="@drawable/add_contact"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/add_contact_description"/>
+    
+    <item
+        android:id="@+id/action_sms_settings"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/action_sms_settings"/>
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/exit"/>
+
+</menu>

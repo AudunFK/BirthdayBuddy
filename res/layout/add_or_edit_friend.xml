@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/contact_image_description"
+            android:src="@drawable/defaulticon" />
+
+         
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:ems="7"
+            android:hint="@string/first_name"
+            android:inputType="textCapWords"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/firstName"
+            android:layout_below="@+id/firstName"
+            android:ems="7"
+            android:hint="@string/last_name"
+            android:inputType="textCapWords"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lastName"
+            android:layout_alignRight="@+id/setDateButton"
+            android:layout_below="@+id/lastName"
+            android:layout_marginTop="23dp"
+            android:hint="@string/phone_number_hint"
+            android:inputType="phone"
+            android:textSize="20sp" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phoneNumber"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="24dp"
+            android:hint="@string/hint_date_input"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/setDateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/date"
+            android:layout_alignRight="@+id/lastName"
+            android:text="@string/birthday_button" />
+
+   
+
+    </RelativeLayout>

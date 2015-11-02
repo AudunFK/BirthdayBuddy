@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_key_sms_settings"
+        android:title="@string/sms_settings" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_sms_service"
+            android:title="@string/pref_key_enable_sms" />
+
+        <com.hioa.s156960_mappe2.TimePreference
+            android:dependency="pref_key_sms_service"
+            android:key="pref_key_set_time"
+            android:summary="@string/pref_key_set_time_summary"
+            android:title="@string/pref_key_set_time_title" />
+
+        <EditTextPreference
+            android:defaultValue="@string/default_sms_greeting"
+            android:dependency="pref_key_sms_service"
+            android:key="pref_key_sms_greeting"
+            android:summary="@string/pref_key_sms_greeting_summary"
+            android:title="@string/pref_key_sms_greeting_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Language" >
+        <ListPreference
+            android:entries="@array/languages"
+             android:entryValues="@array/languages_values"
+            android:key="pref_key_language"
+            android:summary="@string/pref_key_language_summary"
+            android:title="@string/pref_key_language_title" />
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

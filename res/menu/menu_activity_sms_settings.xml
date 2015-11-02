@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/save_sms_settings_fragment"
+        android:icon="@drawable/navigation_accept"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/save_contact_description"/>
+
+</menu>
